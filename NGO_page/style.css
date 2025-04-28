@@ -1,0 +1,274 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1400px; /* Increased max-width for a bigger feel */
+    margin: 20px auto;
+    padding: 30px; /* Increased padding */
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+    border-radius: 10px; /* More rounded corners */
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 30px 0; /* Increased padding */
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin */
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em; /* Larger font size */
+}
+
+.ngo-info, .gov-schemes {
+    margin-bottom: 40px; /* Increased margin */
+    padding: 30px; /* Increased padding */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.ngo-info h2, .gov-schemes h2 {
+    color: #007bff;
+    margin-top: 0;
+    border-bottom: 3px solid #007bff; /* Thicker border */
+    padding-bottom: 15px; /* Increased padding */
+    margin-bottom: 20px; /* Increased margin */
+    font-size: 2.2em; /* Larger font size */
+}
+
+.ngo-info p {
+    margin-bottom: 15px; /* Increased margin */
+    font-size: 1.1em; /* Slightly larger font */
+}
+
+.donation-guidelines {
+    list-style-type: disc;
+    margin-left: 30px; /* Increased left margin */
+}
+
+.donation-guidelines li {
+    margin-bottom: 10px; /* Increased margin */
+    font-size: 1.1em; /* Slightly larger font */
+}
+
+.scheme-item {
+    margin-bottom: 20px; /* Increased margin */
+    padding: 20px; /* Increased padding */
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.scheme-item h3 {
+    color: #28a745;
+    margin-top: 0;
+    margin-bottom: 8px; /* Increased margin */
+    font-size: 1.5em; /* Larger font size */
+}
+
+.scheme-item p {
+    margin-bottom: 12px; /* Increased margin */
+    font-size: 1.1em; /* Slightly larger font */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0; /* Increased padding */
+    margin-top: 30px; /* Increased margin */
+    background-color: #343a40;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Latest CSS Techniques (using some modern properties) */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.ngo-info, .gov-schemes {
+    width: 90%; /* Make sections take up more width */
+    max-width: 1200px; /* Maintain a maximum width */
+}
+
+/* Using viewport units for responsive typography */
+header h1 {
+    font-size: calc(2em + 1.5vw); /* Even larger responsive font */
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 25px; /* Increased padding */
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px; /* More rounded */
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out; /* Added transform transition */
+    margin-top: 15px; /* Increased margin */
+    font-size: 1.1em;
+}
+
+.button:hover {
+    background-color: #218838;
+    transform: scale(1.05); /* Subtle scale on hover */
+}
+
+/* Subtle box shadow on hover for interactive elements */
+.scheme-item:hover, .ngo-info:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08); /* More pronounced shadow */
+    transform: translateY(-3px); /* Slightly more lift on hover */
+}
+
+/* New styles for additional information */
+.our-mission {
+    margin-bottom: 40px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #e9ecef; /* Light gray background */
+}
+
+/* style.css */
+
+.our-mission h2 {
+    margin-bottom: 20px;
+    font-size: 2.2em;
+}
+
+.our-mission p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.impact-section {
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #f0f8ff; /* Light blue background */
+    border: 1px solid #add8e6; /* Light blue border */
+    border-radius: 8px;
+}
+
+.impact-section h2 {
+    color: #007bff;
+    margin-top: 0;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 2.2em;
+}
+
+.impact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.impact-icon {
+    font-size: 2em;
+    color: #28a745;
+    margin-right: 15px;
+}
+
+.impact-text h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.impact-text p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.governance {
+    margin-bottom: 40px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.governance h2 {
+    color: #007bff;
+    margin-top: 0;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 2.2em;
+}
+
+.governance p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+#contact {
+    padding: 30px;
+    background-color: #e6f7ff; /* Very light blue */
+    border: 1px solid #b3e0ff;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+#contact h2 {
+    color: #007bff;
+    margin-top: 0;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 2.2em;
+}
+
+#contact p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contact li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+#contact strong {
+    font-weight: bold;
+    color: #333;
+}
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    background-color: #343a40;
+    color: white;
+    border-radius: 8px;
+    font-size: 0.9em;
+}

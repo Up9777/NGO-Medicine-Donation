@@ -1,0 +1,139 @@
+body {
+    background: linear-gradient(to right, #92e4d3, #a5bff2);
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Headings above and below carousel */
+h2.section-heading {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: #2c3e50;
+}
+
+h2.section-subheading {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    font-size: 2rem; /* Slightly bigger */
+}
+
+/* Carousel container */
+#schemeCarousel {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+/* Carousel items */
+.carousel-inner {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item {
+    height: auto;
+    text-align: center;
+}
+
+/* Carousel images */
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Caption under images */
+.carousel-caption-custom {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-caption-custom h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* Carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 80px;
+    background-color: white; /* white background for button area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+    background-color: white; /* consistent background on hover */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent;
+    filter: brightness(0) saturate(100%) invert(0%); /* make sure it's visible */
+}
+
+/* Profile Card */
+.card {
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.profile-card p {
+    margin-bottom: 10px;
+}
+
+/* Donate button inside card */
+.donate-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-donate {
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.btn-donate:hover {
+    background-color: #333;
+    color: #fff;
+}
+

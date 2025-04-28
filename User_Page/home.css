@@ -1,0 +1,85 @@
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main form container */
+.form-container {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Form heading */
+.form-container h2 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Input fields */
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 90%;
+    padding: 12px 15px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-left: 5px solid #6c63ff;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-container input:focus {
+    outline: none;
+    border-color: #6c63ff;
+    border-left: 5px solid #4b43d2;
+}
+
+/* Submit button */
+.form-container button[type="submit"] {
+    width: 90%;
+    padding: 12px;
+    background-color: #6c63ff;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #574fd6;
+}
+
+/* Toggle link section */
+.toggle-below {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.toggle-below a {
+    color: #6c63ff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+    transition: color 0.3s;
+}
+
+.toggle-below a:hover {
+    color: #574fd6;
+}
